@@ -1,0 +1,107 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.form-container {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: #2c3e50;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(75, 192, 192);
+  box-shadow: 0 0 0 2px rgba(75, 192, 192, 0.1);
+}
+
+input:invalid {
+  border-color: #ff4444;
+}
+
+.results-container {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.milestones {
+  flex: 1;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.milestone {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.milestone:last-child {
+  margin-bottom: 0;
+}
+
+.milestone strong {
+  color: #2c3e50;
+}
+
+.chart-container {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
